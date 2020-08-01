@@ -1,4 +1,4 @@
-# Robot Rover ![CI](https://github.com/datatunning/RobotRover/workflows/Continuous-Integration/badge.svg) [![Coverage](https://codecov.io/gh/datatunning/RobotRover/branch/master/graph/badge.svg)](https://codecov.io/gh/datatunning/RockPaperScissors)
+# Robot Rover ![Continuous-Integration](https://github.com/datatunning/RobotRover/workflows/Continuous-Integration/badge.svg) [![Coverage](https://codecov.io/gh/datatunning/RobotRover/branch/master/graph/badge.svg)](https://codecov.io/gh/datatunning/RockPaperScissors)
 A robotic rover is to be landed by NASA on a rectangular plateau of Mars. The rover can navigate the plateau using a set of simple commands.
 
 
