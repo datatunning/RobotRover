@@ -15,16 +15,3 @@ Moves the rover by accepting a command string in the form "L1R2...".
   * The number represents the grid positions to move in the direction it is facing
 
 The command string may be of any length. This function may be called many times per mission.
-
-
-##### Options
-![Options](/Screnshots/GamesView.png)
-
-##### Single Rover
-![Single Rover](/Screnshots/.png)
-
-##### Multiple Rover
-![Multiple Rover](/Screnshots/.png)
-
-#### Rules
-![Rules](/Screnshots/.png)
