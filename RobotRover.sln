@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{D75BEAAE-7010-4C9D-AD5B-C0062953D69A}"
+	ProjectSection(SolutionItems) = preProject
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE = LICENSE
+		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "worflows", "worflows", "{1146BF36-9383-4067-B1F2-628CDBF24242}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\continuous-integration-workflow.yml = .github\workflows\continuous-integration-workflow.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEMPLATE", "{AABE35EA-A8A5-47DB-A86A-C5731D7F7820}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE\feature-request.md = .github\ISSUE_TEMPLATE\feature-request.md
+		.github\ISSUE_TEMPLATE\issue.md = .github\ISSUE_TEMPLATE\issue.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotRover.App", "RobotRover.App\RobotRover.App.csproj", "{9D4045B7-319A-44D4-AB59-4A707AE2BC76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotRover.UnitTests", "RobotRover.UnitTests\RobotRover.UnitTests.csproj", "{A92C1054-E64F-4644-B972-8BB5AFC16466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotRover.IntegrationTests", "RobotRover.IntegrationTests\RobotRover.IntegrationTests.csproj", "{4EE45B3C-9F87-45D0-B86E-2BBBDF274EAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D4045B7-319A-44D4-AB59-4A707AE2BC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4045B7-319A-44D4-AB59-4A707AE2BC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4045B7-319A-44D4-AB59-4A707AE2BC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4045B7-319A-44D4-AB59-4A707AE2BC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A92C1054-E64F-4644-B972-8BB5AFC16466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92C1054-E64F-4644-B972-8BB5AFC16466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92C1054-E64F-4644-B972-8BB5AFC16466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92C1054-E64F-4644-B972-8BB5AFC16466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE45B3C-9F87-45D0-B86E-2BBBDF274EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE45B3C-9F87-45D0-B86E-2BBBDF274EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE45B3C-9F87-45D0-B86E-2BBBDF274EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE45B3C-9F87-45D0-B86E-2BBBDF274EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1146BF36-9383-4067-B1F2-628CDBF24242} = {D75BEAAE-7010-4C9D-AD5B-C0062953D69A}
+		{AABE35EA-A8A5-47DB-A86A-C5731D7F7820} = {D75BEAAE-7010-4C9D-AD5B-C0062953D69A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F1117A9-8E7D-403E-B66D-F916F931744A}
+	EndGlobalSection
+EndGlobal
